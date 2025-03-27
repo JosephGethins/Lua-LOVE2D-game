@@ -35,8 +35,6 @@ function love.update(dt)
             jumpCharge = player.chargeLimit
         end
     else
-       
-        
         if jumpCharge > 0 then
             player.y = player.y - jumpCharge * dt
             jumpCharge = jumpCharge - 5
