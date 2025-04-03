@@ -9,8 +9,8 @@ return {
   height = 23,
   tilewidth = 8,
   tileheight = 8,
-  nextlayerid = 4,
-  nextobjectid = 1,
+  nextlayerid = 6,
+  nextobjectid = 10,
   properties = {},
   tilesets = {
     {
@@ -171,6 +171,61 @@ return {
         37, 37, 37, 89, 81, 82, 83, 89, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37,
         0, 0, 0, 0, 90, 0, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 29, 29,
         0, 0, 0, 0, 90, 91, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 5,
+      name = "walls",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 7,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 16,
+          y = 104,
+          width = 56,
+          height = 56,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 8,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 0,
+          y = 160,
+          width = 320,
+          height = 24,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 9,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 184,
+          y = 136,
+          width = 24,
+          height = 24,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
       }
     }
   }

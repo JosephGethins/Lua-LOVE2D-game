@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="6" nextobjectid="10">
+ <editorsettings>
+  <export target="importmap.lua" format="lua"/>
+ </editorsettings>
  <tileset firstgid="1" name="test_tiles" tilewidth="8" tileheight="8" tilecount="96" columns="8">
   <image source="cavesofgallet_tiles.png" width="64" height="96"/>
  </tileset>
@@ -84,4 +87,9 @@
 0,0,0,0,90,91,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="5" name="walls">
+  <object id="7" x="16" y="104" width="56" height="56"/>
+  <object id="8" x="0" y="160" width="320" height="24"/>
+  <object id="9" x="184" y="136" width="24" height="24"/>
+ </objectgroup>
 </map>
